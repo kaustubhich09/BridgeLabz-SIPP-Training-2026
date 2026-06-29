@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+
+
+
+
+
+public class distance_in_yards_and_miles {
+    public static void main(String[] args) {
+        double kilometers = 10.0;
+        double yards = kilometers * 1093.61;
+        double miles = kilometers * 0.621371;
+        System.out.println(kilometers + " km = " + yards + " yards");
+        System.out.println(kilometers + " km = " + miles + " miles");
+    }
+}
